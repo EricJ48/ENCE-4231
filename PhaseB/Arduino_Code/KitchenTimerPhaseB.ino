@@ -348,7 +348,7 @@ void loop()
   int auxCount = 0;
   unsigned char auxDigit = '0';
   
-  // Attend Timer1 flag - receive commands through serial
+  // Attend Timer3 flag - receive commands through serial
   if(gISRFlag2 == 1)
   {    
     // Reset ISR Flag
